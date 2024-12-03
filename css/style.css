@@ -1,3 +1,27 @@
 body {
-  background-color: black;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(22,2,65,1) 100%);
+}
+
+#carousel .cloud9-item, #buttons button {
+  cursor: pointer;
+}
+
+.cloud9-item {
+  filter: blur(0px) brightness(50%);
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.frontItemClass {
+  filter: blur(0px);
+}
+
+#buttons .left,
+#buttons .right {
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
